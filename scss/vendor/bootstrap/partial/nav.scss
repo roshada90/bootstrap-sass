@@ -1,0 +1,25 @@
+// nesting
+nav{
+    widows: 100%;
+    height: auto;
+    background: #000;
+    color: #fff;
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li{
+        display: inline-block;
+    }
+    a{
+        color: $base-link-color;
+        &:hover{
+            color: $base-link-hover;
+        }
+    }
+    // a:hover{
+    //     color: $base-link-hover;
+    // }
+}

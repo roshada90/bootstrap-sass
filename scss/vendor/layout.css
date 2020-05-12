@@ -1,0 +1,158 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  color: #1b1b1b; }
+
+.pricing-grid .bg-inverse h4 {
+  font-weight: 500; }
+.pricing-grid .btn {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px; }
+
+.navbar {
+  background: #78379d; }
+  .navbar .navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-top: 0.5rem; }
+  .navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 300;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px; }
+    .navbar .navbar-nav .nav-link:hover {
+      background: #fff;
+      color: #78379d; }
+
+.home-hero {
+  margin-top: 10px;
+  padding: 20px;
+  font-weight: bold;
+  color: white;
+  background: #78379d;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  border-radius: 6px; }
+  .home-hero h1 {
+    font-size: 18px;
+    line-height: 36px; }
+    @media (min-width: 576px) and (max-width: 768px) {
+      .home-hero h1 {
+        font-size: 2.4rem; } }
+  .home-hero .btn-green {
+    display: block;
+    background-color: #4CAF50; }
+    .home-hero .btn-green:hover {
+      background: #038f07;
+      color: #ffffff; }
+    @media (min-width: 992px) and (max-width: 1200px) {
+      .home-hero .btn-green {
+        overflow: hidden;
+        text-overflow: ellipsis; } }
+    @media (min-width: 576px) and (max-width: 768px) {
+      .home-hero .btn-green {
+        overflow: hidden;
+        text-overflow: ellipsis; } }
+
+.small-border-radius, .home-hero {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  border-radius: 6px; }
+
+.form-box {
+  overflow: hidden;
+  padding: 20px;
+  background: #e7e7e7;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px; }
+  .form-box h3 {
+    font-size: 36px;
+    list-style: 48px;
+    font-weight: 500; }
+  .form-box p {
+    color: #636c72; }
+  .form-box .btn-green {
+    background-color: #4CAF50;
+    font-size: 18px;
+    line-height: 27px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px; }
+  .form-box .form-group:last-child {
+    margin-top: 1.5rem; }
+
+.form-group {
+  margin-bottom: 1.5rem; }
+
+.form-control-label {
+  font-weight: 500; }
+
+.form-control {
+  line-height: 1.8rem; }
+
+.table thead th {
+  font-weight: 500;
+  text-transform: uppercase; }
+
+.pricing-table {
+  margin: 60px 0; }
+  .pricing-table .btn {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px; }
+  .pricing-table .table-hover tbody tr:hover {
+    background: #78379d;
+    color: #fff; }
+
+#account-modal .close-modal {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: #78379d;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  padding: 0 0 0 6px; }
+#account-modal .formm-box {
+  background: transparent; }
+
+.place {
+  overflow: hidden;
+  padding: 0 0 40px 0; }
+  .place .title {
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 500;
+    color: #78379d;
+    margin: 0 0 20px 0; }
+  .place .description {
+    overflow: hidden;
+    margin: 0 0 20px 0; }
+    .place .description p {
+      font-size: 18px;
+      line-height: 27px; }
+  .place .carousel {
+    margin-bottom: 20px; }
+
+/*# sourceMappingURL=layout.css.map */

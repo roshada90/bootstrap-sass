@@ -1,0 +1,44 @@
+.home-hero{
+
+    margin-top: 10px;
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+    background: #78379d;
+    @include border-radius(6px);
+    @extend .small-border-radius;
+
+    h1{
+        font-size: 18px;
+        line-height: 36px;
+        @include responsive(sm){
+            font-size: 2.4rem;
+        }
+    }
+    .btn-green{
+        display: block;
+        background-color: #4CAF50;
+
+        &:hover{
+            background: rgb(3, 143, 7);
+            color: #ffffff;
+        }
+
+        @include responsive(lg){
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        @include responsive(sm){
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}
+
+.small-border-radius{
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px;
+}

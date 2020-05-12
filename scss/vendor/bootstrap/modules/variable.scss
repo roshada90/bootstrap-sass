@@ -1,0 +1,16 @@
+$font-stack: Helvetica, sans-serif;
+$secondary-font-stack: Aria;
+
+$base-bg-color: #fff;
+$base-text-color: #333;
+
+$base-font-size: 16px;
+$base-line-height: $base-font-size * 1.5;
+
+$box-width:300px;
+
+$base-link-color: red;
+$base-link-hover: darken($base-link-color, 80%);
+
+$h1-font-size: $base-font-size * 2;
+$h1-color: lighten($base-text-color, 30%);

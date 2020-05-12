@@ -1,0 +1,19 @@
+.home-hero {
+  margin-top: 20px;
+  padding: 20px;
+  background: #333;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  border-radius: 6px; }
+  .home-hero h1 {
+    font-size: 18px;
+    line-height: 36px; }
+
+.small-border-radius, .home-hero {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  border-radius: 6px; }
+
+/*# sourceMappingURL=hero.css.map */

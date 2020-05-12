@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Forms</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="scss/vendor/layout.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Neighbourhood</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarsExample04"
+        aria-controls="navbarsExample04"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsExample04">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="pricing.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="#"
+              data-toggle="modal"
+              data-target="#account-modal"
+              data-case="login"
+              >Login</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="#"
+              data-toggle="modal"
+              data-target="#account-modal"
+              data-case="register"
+              >Register</a
+            >
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-md-0">
+          <input class="form-control" type="text" placeholder="Search" />
+        </form>
+      </div>
+    </nav>
+    <!-- navbar ends -->
+    <div class="home-hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="content-box">
+              <h2>Explore the neighbourhood</h2>
+              <form action="#" method="POST">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="What do you want to discover today?"
+                  />
+                  <input type="submit" class="btn btn-purple" value="Search" />
+                </div>
+                <!-- .form-group-->
+              </form>
+            </div>
+            <!-- .content-box -->
+          </div>
+          <!-- col-md-12 -->
+        </div>
+        <!-- .row -->
+      </div>
+      <!-- .container -->
+    </div>
+    <!-- .home-hero -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-box">
+            <h3>Create an Account</h3>
+            <p>
+              Register on our great website to become a part of our
+              neighbourhood
+            </p>
+            <form action="#" method="POST">
+              <div class="form-group">
+                <label for="fullname" class="form-control-label"
+                  >Your name:</label
+                >
+                <input
+                  type="text"
+                  id="fullname"
+                  name="fullname"
+                  class="form-control"
+                  placeholder="Please enter full name"
+                  data-fv-notepmty="true"
+                />
+              </div>
+              <!-- .form-group -->
+              <div class="form-group">
+                <label for="email" class="form-control-label">Email:</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-control"
+                  placeholder="Please enter email"
+                  data-fv-notepmty="true"
+                />
+              </div>
+              <!-- .form-group -->
+              <div class="form-group">
+                <label for="password" class="form-control-label"
+                  >Password:</label
+                >
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  class="form-control"
+                  placeholder="Please enter email"
+                  data-fv-notepmty="true"
+                />
+              </div>
+              <!-- .form-group -->
+              <div class="form-check">
+                <label for="member" class="form-check-label">
+                  <input type="checkbox" class="form-check-input" />
+                  I agree to your terms and conditions.
+                </label>
+              </div>
+              <!-- .form-check -->
+              <div class="form-group">
+                <button class="btn btn-green" value="Become a member">
+                  Submit
+                </button>
+              </div>
+              <!-- .form-group -->
+            </form>
+          </div>
+          <!-- .form-box -->
+        </div>
+        <!-- .col-md-6 -->
+        <div class="col-md-6">
+          <div class="form-box">
+            <h3>Login to your account</h3>
+            <p>If you are already a member, please log in to your account.</p>
+            <form action="#" method="POST" class="validate">
+              <div class="form-group">
+                <label for="email" class="form-control-label">Email:</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-control"
+                  placeholder="Please enter email"
+                  data-fv-notepmty="true"
+                />
+              </div>
+              <!-- .form-group -->
+              <div class="form-group">
+                <label for="password" class="form-control-label"
+                  >Password:</label
+                >
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  class="form-control"
+                  placeholder="Please enter email"
+                  data-fv-notepmty="true"
+                />
+              </div>
+              <!-- .form-group -->
+              <div class="form-group">
+                <input type="submit" value="Login" class="btn btn-green" />
+              </div>
+              <!-- .form-group -->
+            </form>
+          </div>
+          <!-- .form-box -->
+        </div>
+        <!-- .col-md-6 -->
+      </div>
+      <!-- .row -->
+    </div>
+    <!-- .container -->
+
+    <div class="modal fade" id="account-modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <a href="#" class="close-modal" data-dismis="modal"
+            ><i class="fa fa-times"></i
+          ></a>
+          <div class="modal-body">
+            <div class="form-box">
+              <div id="login-case">
+                <h3>Login to your account</h3>
+                <p>If you're already a member, login to neighbourhood!</p>
+                <form action="#" method="POST" class="validate">
+                  <div class="form-group">
+                    <label for="email" class="form-control-label">Email:</label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      class="form-control"
+                      placeholder="Please enter email"
+                      data-fv-notepmty="true"
+                    />
+                  </div>
+                  <!-- .form-group -->
+                  <div class="form-group">
+                    <label for="password" class="form-control-label"
+                      >Password:</label
+                    >
+                    <input
+                      type="password"
+                      id="password"
+                      name="password"
+                      class="form-control"
+                      placeholder="Please enter email"
+                      data-fv-notepmty="true"
+                    />
+                  </div>
+                  <!-- .form-group -->
+                  <div class="form-group">
+                    <input type="submit" value="Login" class="btn btn-green" />
+                  </div>
+                  <!-- .form-group -->
+                </form>
+              </div>
+              <!-- .login-case -->
+              <div id="register-case" style="display: none;">
+                <h3>Crete an account</h3>
+                <p>
+                  Register on our great website to become a part of our
+                  neighbourhood
+                </p>
+                <form action="#" method="POST">
+                  <div class="form-group">
+                    <label for="fullname" class="form-control-label"
+                      >Your name:</label
+                    >
+                    <input
+                      type="text"
+                      id="fullname"
+                      name="fullname"
+                      class="form-control"
+                      placeholder="Please enter full name"
+                      data-fv-notepmty="true"
+                    />
+                  </div>
+                  <!-- .form-group -->
+                  <div class="form-group">
+                    <label for="email" class="form-control-label">Email:</label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      class="form-control"
+                      placeholder="Please enter email"
+                      data-fv-notepmty="true"
+                    />
+                  </div>
+                  <!-- .form-group -->
+                  <div class="form-group">
+                    <label for="password" class="form-control-label"
+                      >Password:</label
+                    >
+                    <input
+                      type="password"
+                      id="password"
+                      name="password"
+                      class="form-control"
+                      placeholder="Please enter email"
+                      data-fv-notepmty="true"
+                    />
+                  </div>
+                  <!-- .form-group -->
+                  <div class="form-check">
+                    <label for="member" class="form-check-label">
+                      <input type="checkbox" class="form-check-input" />
+                      I agree to your terms and conditions.
+                    </label>
+                  </div>
+                  <!-- .form-check -->
+                  <div class="form-group">
+                    <button class="btn btn-green" value="Become a member">
+                      Submit
+                    </button>
+                  </div>
+                  <!-- .form-group -->
+                </form>
+              </div>
+              <!-- .register-case -->
+            </div>
+            <!-- .form-box-->
+          </div>
+          <!-- .modal-body -->
+        </div>
+        <!-- .modal-content -->
+      </div>
+      <!-- .modal-dialog-->
+    </div>
+    <!-- .modal -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.site.js"></script>
+  </body>
+</html>

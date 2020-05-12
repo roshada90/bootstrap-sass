@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="scss/vendor/layout.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- navbar starts -->
+        <nav class="navbar navbar-collapse-xs navbar-expand-md fixed-top">
+            <div class="container">
+                <a href="#" class="navbar-brand"><i class="fa fa-map-marker"></i>Neighbourhood</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#main-menu"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="main-menu">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Browse</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Hospital</a>
+                                <a href="#" class="dropdown-item">Finance</a>
+                                <a href="#" class="dropdown-item">Shopping</a>
+                                <a href="#" class="dropdown-item">Food</a>
+                                <a href="#" class="dropdown-item">Hotels</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Submit your brand</a>
+                        </li>
+                    </ul>  <!-- .ul-->
+                </div>   <!-- .collapse-->
+            </div> <!-- .container-->
+        </nav> <!-- .navbar-->
+
+        <div class="home-hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="content-box">
+                            <h1>Explore your neighbourhood</h1>
+                            <form action="#" method="GET">
+                                <div class="form-group row">
+                                    <input type="text" class="form-control col-md-9" placeholder="What do you want to discover today?">
+                                    <input type="submit" value="Submit" class="btn btn-success col-md-3">
+                                </div> <!-- .form-group-->
+                            </form>
+                        </div> <!-- .content-box-->
+                    </div> <!-- .col-md-12-->
+                </div> <!-- .row-->
+            </div> <!--.container-->
+        </div> <!-- .home-hero-->
+
+        <div class="container">
+            <div class="pricing-grid">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="list-group text-center">
+                            <div class="list-group-item bg-inverse">
+                                <h4 class="text-center">Basic</h4>
+                            </div> <!-- .list-group-item-->
+                            <div class="list-group-item text-uppercase font-weight-bold">
+                                FREE
+                            </div> <!-- .list-group-item -->
+                            <a href="#storage" class="list-group-item">1 GB of Storage</a>
+                            <a href="#" class="list-group-item">Custom Logo</a>
+                            <a href="#" class="list-group-item">100 coupons</a>
+                            <a href="#" class="list-group-item">Search placement</a>
+                            <div class="list-group-item">
+                                <button class="btn btn-secondary btn-lg btn-block text-truncate">Sign-up</button>
+                            </div>
+                        </div> <!-- .list-group -->
+                    </div> <!-- .col-md-4 -->
+                    <div class="col-md-4">
+                        <div class="list-group text-center">
+                            <div class="list-group-item bg-inverse">
+                                <h4 class="text-center">Standard</h4>
+                            </div> <!-- .list-group-item-->
+                            <div class="list-group-item text-uppercase font-weight-bold">
+                                $29/mo.
+                            </div> <!-- .list-group-item -->
+                            <a href="#storage" class="list-group-item">10 GB of Storage</a>
+                            <a href="#logo" class="list-group-item">Custom Logo and Design</a>
+                            <a href="#" class="list-group-item">500 coupons</a>
+                            <a href="#" class="list-group-item">Priority search placement</a>
+                            <a href="#" class="list-group-item">Tech support</a>                            
+                            <a href="#" class="list-group-item">Analytics</a>
+                            <a href="#" class="list-group-item">24/7 Monitoring</a>
+                            <div class="list-group-item">
+                                <button class="btn btn-secondary btn-lg btn-block text-truncate">Buy Now</button>
+                            </div>
+                        </div> <!-- .list-group -->
+                    </div><!-- .col-md-4 -->
+                    <div class="col-md-4">
+                        <div class="list-group text-center">
+                            <div class="list-group-item bg-inverse">
+                                <h4 class="text-center">Managed</h4>
+                            </div> <!-- .list-group-item-->
+                            <div class="list-group-item text-uppercase font-weight-bold">
+                                Contact Us
+                            </div> <!-- .list-group-item -->
+                            <a href="#storage" class="list-group-item">100 GB of Storage</a>
+                            <a href="#" class="list-group-item">Complete Customization</a>
+                            <a href="#" class="list-group-item">Custom Subdomain</a>
+                            <a href="#" class="list-group-item">24/7 Support</a>
+                            <div class="list-group-item">
+                                <button class="btn btn-secondary btn-lg btn-block text-truncate">Buy Now</button>
+                            </div>
+                        </div> <!-- .list-group -->
+                    </div><!-- .col-md-4 -->
+                </div> <!-- .row -->
+            </div> <!-- .pricing-grid -->
+
+            <div class="pricing-table">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- <div class="table-responsive"> -->
+                            <table class="table table-striped table-hover">
+                                <thead class="thead-inverse">
+                                    <tr>
+                                        <th class="col-sm-4">Features</th>
+                                        <th class="col-sm-2">Basic</th>
+                                        <th class="col-sm-2">Standard</th>
+                                        <th class="col-sm-2">Premium</th>
+                                        <th class="col-sm-2">Managed</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="col-sm-4 option" id="storage">Storage</td>
+                                        <td class="col-sm-2">1 GB</td>
+                                        <td class="col-sm-2">10 GB</td>
+                                        <td class="col-sm-2">100 GB</td>
+                                        <td class="col-sm-2">1000 GB</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-sm-4 option" id="storage">Custom Logo</td>
+                                        <td class="col-sm-2"><i class="fa fa-check"></i></td>
+                                        <td class="col-sm-2"><i class="fa fa-check"></i></td>
+                                        <td class="col-sm-2"><i class="fa fa-check"></i></td>
+                                        <td class="col-sm-2"><i class="fa fa-check"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-sm-4 option" id="storage">Custom Design</td>
+                                        <td class="col-sm-2"></td>
+                                        <td class="col-sm-2"><i class="fa fa-check"></i></td>
+                                        <td class="col-sm-2"><i class="fa fa-check"></i></td>
+                                        <td class="col-sm-2"><i class="fa fa-check"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-sm-4 option" id="storage">Custom Domain</td>
+                                        <td class="col-sm-2">-</td>
+                                        <td class="col-sm-2">-</td>
+                                        <td class="col-sm-2"><i class="fa fa-check"></i></td>
+                                        <td class="col-sm-2"><i class="fa fa-check"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-sm-4 option" id="storage">Database</td>
+                                        <td class="col-sm-2">-</td>
+                                        <td class="col-sm-2">optional</td>
+                                        <td class="col-sm-2"><i class="fa fa-check"></i></td>
+                                        <td class="col-sm-2"><i class="fa fa-check"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-sm-4 option" id="storage">Backups</td>
+                                        <td class="col-sm-2">-</td>
+                                        <td class="col-sm-2">-</td>
+                                        <td class="col-sm-2"><i class="fa fa-check"></i></td>
+                                        <td class="col-sm-2"><i class="fa fa-check"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-sm-4 option" id="storage">Tech support</td>
+                                        <td class="col-sm-2">None</td>
+                                        <td class="col-sm-2">$50/incident</td>
+                                        <td class="col-sm-2">$35/incident</td>
+                                        <td class="col-sm-2">24/7 included</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-sm-4 option" id="storage">Custom Servers</td>
+                                        <td class="col-sm-2">-</td>
+                                        <td class="col-sm-2">-</td>
+                                        <td class="col-sm-2"><i class="fa fa-check"></i></td>
+                                        <td class="col-sm-2"><i class="fa fa-check"></i></td>
+                                    </tr>
+                                    <tr class="text-uppercase font-weight-bold">
+                                        <td class="col-sm-4"></td>
+                                        <td class="col-sm-2">Free</td>
+                                        <td class="col-sm-2">$99/mo.</td>
+                                        <td class="col-sm-2">$179/mo.</td>
+                                        <td class="col-sm-2"><a href="#">Contact Us</a></td>
+                                    </tr>
+                                </tbody>
+                                <tfoot class="">
+                                    <tr>
+                                        <th class="col-sm-4"></th>
+                                        <th class="col-sm-2">
+                                            <button class="btn btn-success">Sign-up</button>
+                                        </th>
+                                        <th class="col-sm-2">
+                                            <button class="btn btn-success">Sign-up</button>
+                                        </th>
+                                        <th class="col-sm-2">
+                                            <button class="btn btn-success">Sign-up</button>
+                                        </th>
+                                        <th class="col-sm-2"></th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        <!-- </div> .table-responsive -->
+                    </div> <!-- .col-md-12-->
+                </div> <!-- .row -->
+            </div> <!-- .pricing-table -->
+        </div> <!-- .container -->
+        
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    </body>
+</html>
